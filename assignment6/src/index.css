@@ -10,3 +10,42 @@ main {
   margin: 30px auto;
   padding: 20px;
 }
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+article {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+[role="alert"] {
+  color: #a11919;
+}
